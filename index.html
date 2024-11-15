@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeAPI - Regiones Pokémon</title>
+
+  <!-- Enlace al CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Selecciona una región Pokémon</h1>
+
+    <!-- Select de Regiones -->
+    <div class="mb-3">
+      <label for="regionSelect" class="form-label">Región</label>
+      <select class="form-select" id="regionSelect">
+        <option value="" selected>Elige una región...</option>
+      </select>
+    </div>
+
+    <!-- Contenedor para el listado de Pokémon -->
+    <div class="row" id="pokemonList"></div>
+    
+    <div class="text-center mt-4">
+      <a href="equipo.html" class="btn btn-primary">Ver mi equipo</a>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS y Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Enlace al JS -->
+  <script src="script.js"></script>
+</body>
+</html>

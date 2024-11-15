@@ -1,0 +1,11 @@
+.pokemon-card {
+  width: 100%;
+  max-width: 250px; /* Ajusta el ancho máximo de las tarjetas */
+  margin: auto;
+}
+
+.pokemon-image {
+  width: 100px; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la relación de aspecto */
+  margin: 0 auto; /* Centra la imagen */
+}
