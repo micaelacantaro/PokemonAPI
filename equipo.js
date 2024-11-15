@@ -16,7 +16,7 @@ function mostrarEquipo() {
     card.className = "col-md-3 pokemon-card mb-4";
     card.innerHTML = `
       <div class="card text-center">
-        <img src="https://pokeapi.co/media/sprites/pokemon/${pokemon.id}.png" alt="${pokemon.name}" class="pokemon-image">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" alt="${pokemon.name}" class="pokemon-image">
         <div class="card-body">
           <h5>${pokemon.name.toUpperCase()}</h5>
           <button class="btn btn-danger" onclick="removerDeEquipo('${pokemon.name}')">Remover</button>
